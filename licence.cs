@@ -44,6 +44,10 @@ namespace wypov1
                     Console.WriteLine("Koniec");
                     t = false;
                 }
+                else
+                {
+                    Console.WriteLine("Wybrałeś nie poprawną opcję");
+                }
             }
         }
     }
